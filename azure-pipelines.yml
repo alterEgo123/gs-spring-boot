@@ -23,7 +23,6 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-  vmImage: 'ubuntu-latest'
 
 - task: CopyFiles@2
   inputs:
